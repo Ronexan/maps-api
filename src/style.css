@@ -1,0 +1,66 @@
+body {
+    font-family: sans-serif;
+}
+
+#map {
+    height: 400px;
+}
+
+.button {
+    background-color: rgb(0, 102, 255);
+    color: white;
+    font-size: 1em;
+    border: none;
+    outline: 1px solid rgb(0, 102, 255);
+    padding: 6px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-negative {
+    background-color: red;
+    color: white;
+    font-size: 1em;
+    border: none;
+    outline: 1px solid red;
+    padding: 6px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-toggled {
+    background-color: rgb(0, 49, 124);
+    color: rgb(208, 208, 208);
+    font-size: 1em;
+    border: none;
+    outline: 1px solid rgb(0, 49, 124);
+    padding: 6px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-negative-toggled {
+    background-color: rgb(149, 0, 0);
+    color: white;
+    font-size: 1em;
+    border: none;
+    outline: 1px solid rgb(149, 0, 0);
+    padding: 6px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.buttton:hover {
+    background-color: white;
+    color: rgb(0, 102, 255);
+}
+
+#main-div {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: purple;
+    z-index: 9400;
+    cursor: pointer;
+}
